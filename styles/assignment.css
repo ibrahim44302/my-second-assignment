@@ -1,0 +1,112 @@
+/* nav related styles */
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    margin-left: 330px;
+
+
+
+}
+
+nav li {
+    list-style: none;
+    margin: 15px;
+}
+
+.nav-title {
+    margin-left: 10px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+
+}
+
+.nav-title-1 {
+    color: #FF5400;
+}
+
+.nav-title-2 {
+    color: var(--Dark-02, #424247);
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.nav-title-3 {
+    color: #FF5400;
+}
+
+/* section-1 styles*/
+
+.section-1 {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    margin: 0px auto;
+    height: 70vh;
+    width: 1040px;
+    border-radius: 15px;
+
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+    padding-top: 110px;
+}
+
+.section-description {
+    text-align: center;
+    color: #FFF;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.section-button{
+ 
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+height: 60px;
+width: 670px;
+margin: 60px auto;
+ 
+}
+.section-button-1{
+    display: flex;
+    /* justify-content: space-around; */
+    padding-top: 10px;
+    gap: 15px;
+    justify-content: center;
+
+
+}
+.button-2{
+    width: 150px;
+height: 40px;
+border-radius: 5px;
+background: #FFF;
+
+}
+
+
+.button-text-1{
+    margin-left: 15px;
+    margin-top: 10px;
+}
