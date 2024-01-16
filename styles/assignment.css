@@ -53,7 +53,7 @@ nav li {
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     margin: 0px auto;
-    height: 70vh;
+    height: 450px;
     width: 1040px;
     border-radius: 15px;
 
@@ -268,7 +268,7 @@ img {
 /* section-4 styles */
 
 .section-4 {
-    background-color:white;
+    background-color: white;
     width: 1040px;
     height: auto;
     margin: 50px auto;
@@ -321,16 +321,18 @@ img {
     margin: 20px auto;
 
 }
+
 /* section-5 styles */
 
-.section-5{
-    background-color:white;
+.section-5 {
+    background-color: white;
     width: 1040px;
     height: auto;
     margin: 50px auto;
 
 }
-.tours-4{
+
+.tours-4 {
     width: 130px;
     height: 38px;
     border-radius: 8px;
@@ -340,20 +342,116 @@ img {
     margin-left: 460px;
 }
 
-.section-5-div-2{
+.section-5-div-2 {
     margin-top: 60px;
 }
 
-.section-5-div-1{
+.section-5-div-1 {
     display: flex;
     justify-content: space-between;
 }
 
+/* section-6 styles */
+
+.section-6 {
+    background-color: white;
+    width: 1040px;
+    height: auto;
+    margin: 50px auto;
+
+}
+
+.section-6-div-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section-6-div-2 {
+    width: 560px;
+    height: 320px;
+    flex-shrink: 0;
+}
+
+.section-6-div-3 {
+    width: 400px;
+    height: 280px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 20px 30px;
+}
+
+#hr {
+
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+
+}
+
+.section-6-box-1 {
+    width: 393px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    margin-top: 15px;
+}
+
+.section-6-box-2 {
+    width: 393px;
+    height: 30px;
+    border-radius: 5px;
+    background: #FF5400;
+    border: none;
+    margin-top: 15px;
+    color: white;
+}
+
+/* footer section styles */
+
+.footer-1 {
+    background-color: rgba(19, 19, 24, 0.05);
+    width: 1200px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.footer-2 {
+    display: flex;
+    align-items: center;
+    padding: 100px 470px 0px 470px;
+
+}
+
+.footer-3 {
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+
+}
+
+.footer-img {
+    padding: 0px 450px;
 
 
+}
 
+.footer-img-1 {
+    width: 30px;
+    height: 30px;
+    margin: 0px 20px 50px 20px;
+}
 
-
+.footer-hr {
+    margin-bottom: 50px;
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
 
 
 
